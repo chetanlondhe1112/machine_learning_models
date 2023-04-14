@@ -8,7 +8,7 @@ def readme():
 NAME="Chetan's ML's"
 AUTHOR='Chetan Arvind Londhe'
 MAIL='chetanlondhe1112@gmail.com'
-VERSION = '0.0.0'
+VERSION = '0.0.1'
 DESCRIPTION = "Chetan's Machine Learning Models"
 LONG_DESCRIPTION = 'This dashboard is build as portfolio dashboard for highlight my continuos development in Machine Learning.'
 KEYWORD=['python', 'Machine Learning','Lottie','style']
