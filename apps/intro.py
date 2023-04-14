@@ -21,3 +21,23 @@ def intro():
     with col[1]:
         lottie_select()
 
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    col[0].write("")
+    
+
+    col[0].write("#### Thank's to:")
+    col[0].markdown("## [Perfect E Learning](https://perfectelearning.com/)")

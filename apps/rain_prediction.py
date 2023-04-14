@@ -96,7 +96,7 @@ def rain_predictor_app():
 
     # Title
     
-    col[0].header("Rain Predictor")
+    col[0].header("⛈ Rain Predictor")
 
     # inputs
 
@@ -117,7 +117,7 @@ def rain_predictor_app():
         elif output=="no":
             return st_lottie(animation_data=lottie_sunny,speed=1,reverse=False,loop=True,quality="low",height=600)
         else:   
-            return st_lottie(animation_data=lottie_thinking,speed=1,reverse=False,loop=True,quality="low",height=600,width=700)
+            return st_lottie(animation_data=lottie_thinking,speed=1,reverse=False,loop=True,quality="low",height=0,width=600)
 
     button_col=st.columns((5,5,5))
 
@@ -126,7 +126,6 @@ def rain_predictor_app():
         model=rain_model()
         output=rain_predict(model=model,data=data)
 
-        out_col=st.columns((1,2))
         #out_col[0].title(output)
         with col[1]:
             lottie_select(output=output)
