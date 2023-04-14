@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 def spam_LR():
 
     # Read dataset
-    raw_mail_data=pd.read_csv('apps\data_files\CSV\mail_data.csv')
+    raw_mail_data=pd.read_csv("apps/data_files/CSV/mail_data.csv")
     # replace the null values with a null string
     mail_data=raw_mail_data.where((pd.notnull(raw_mail_data)),'')
 
