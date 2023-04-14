@@ -9,7 +9,7 @@ import pandas as pd
 
 #D:\Private Project\Machine Learning\Project 1\ML_Models\machine_learning_models\apps\data_files\CSV\mail_data.csv
 def read_file():
-    df=pd.read_csv('machine_learning_models/apps/data_files/CSV/mail_data.csv')
+    df=pd.read_csv('data_files/CSV/mail_data.csv')
     return df['Category'].to_list(),df['Message'].to_list()
 
 def lottie_files(file_path=str):
