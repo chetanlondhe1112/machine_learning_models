@@ -34,7 +34,7 @@ with st.sidebar:
         options=['🏠Home','🧮Models'],
         icons=['🏠','🏠'],
         menu_icon="cast",
-        default_index=1
+        default_index=0
     )
 
 #if __name__ == '__main__':
@@ -49,7 +49,7 @@ if page=='🧮Models':
             options=['⛈ Rain predict','📧 Spam Mail'],
             icons=['🏠','🏠'],
             menu_icon="cast",
-            default_index=1
+            default_index=0
         )
 
     if models_page=="⛈ Rain predict":
